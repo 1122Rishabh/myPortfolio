@@ -22,7 +22,7 @@ const Intro = () => {
 
            
 
-          <a href='/blank'>  <button className="button i-button">Intro</button></a>
+          <a href='/myinfo'>  <button className="button i-button">Intro</button></a>
             <div className="i-icons">
                 <a href='https://github.com/'>
                 <img src={Github} alt=''/>

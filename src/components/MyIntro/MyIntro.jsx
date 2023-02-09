@@ -8,10 +8,10 @@ import './MyIntro.css'
 const MyIntro = () => {
   return (
     <div className='image'>
-<img src={myimage} alt="" />
-<img src={myimage1} alt="" />
+<img src={myimage} alt="i" />
+<img src={myimage1} alt="i" />
 
-<img src={myimage2} alt="" />
+<img src={myimage2} alt="i" />
 <span>Hey! I am a Front End Developer and created some projects for MNC's clints. 
                   <br/>
                   I also have experince in back end side and created some API's using node js technologies.</span>

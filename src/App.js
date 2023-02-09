@@ -13,8 +13,7 @@ function App() {
 
 
       <Route path="/" element={<Home/>}/>
-      <Route path="/blank" element={<MyIntro/>}/>
-
+      <Route path="/myinfo" element={<MyIntro/>}/>
 
 
 
