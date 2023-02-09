@@ -5,8 +5,6 @@ import Instagram from '../../../src/images/inn.png'
 
 import Linkdin from '../../../src/images/link.png'
 import man from '../../../src/images/mee.jpg'
-import Service  from '../Services/Service'
-
 const Intro = () => {
   return (
     <div className='Intro' id='intro'>

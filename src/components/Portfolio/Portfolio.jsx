@@ -5,7 +5,6 @@ import './Portfolio.css';
 import download from '../../images/ss.png';
 import download1 from '../../images/portmy.png';
 import download2 from '../../images/myport.png';
-import Blank  from '../MyIntro/MyIntro';
 
 import {Pagination} from 'swiper'
 import 'swiper/css/pagination'
