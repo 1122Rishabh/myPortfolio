@@ -5,6 +5,7 @@ import Instagram from '../../../src/images/inn.png'
 
 import Linkdin from '../../../src/images/link.png'
 import man from '../../../src/images/mee.jpg'
+import Service  from '../Services/Service'
 
 const Intro = () => {
   return (
@@ -23,7 +24,7 @@ const Intro = () => {
 
            
 
-            <button className="button i-button">Intro</button>
+          <a href='/blank'>  <button className="button i-button">Intro</button></a>
             <div className="i-icons">
                 <a href='https://github.com/'>
                 <img src={Github} alt=''/>

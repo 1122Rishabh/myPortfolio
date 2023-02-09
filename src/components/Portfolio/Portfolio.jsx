@@ -3,6 +3,10 @@ import {Swiper, SwiperSlide}  from "swiper/react";
 
 import './Portfolio.css';
 import download from '../../images/ss.png';
+import download1 from '../../images/portmy.png';
+import download2 from '../../images/myport.png';
+import Blank  from '../MyIntro/MyIntro';
+
 import {Pagination} from 'swiper'
 import 'swiper/css/pagination'
 import "swiper/css";
@@ -24,10 +28,10 @@ const Portfolio = () => {
           <img src={download} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={download} alt="" />
+          <img src={download1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={download} alt="" />
+          <img src={download2} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={download} alt="" />

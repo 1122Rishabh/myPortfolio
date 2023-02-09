@@ -32,7 +32,7 @@ const Service = () => {
         <div className="cards">
             <div style={{left:'1rem'}}>
                 <Card
-            emoji={download}
+            emoji={download1}
             text={'Languages'}
             description={'JavaScript, React, Html, Css'}
 
@@ -41,7 +41,7 @@ const Service = () => {
             </div>
             <div style={{top: "11rem", left: "-14rem" }}>
                 <Card
-            emoji={download1}
+            emoji={download}
             text={'Database'}
             description={'MongoDb, Firebase'}
 

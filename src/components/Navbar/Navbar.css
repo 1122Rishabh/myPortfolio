@@ -10,6 +10,13 @@
     align-items: center;
     gap: 2rem;
 }
+.nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
 .n-name{
     display: flex;
     font-size: 1.3rem;
@@ -40,10 +47,49 @@ color: rgb(84, 201, 30);
 
 .n-button{
     flex: 2rem;
+    margin-right: 5rem;
+    margin-left: 1rem;
 }
+.nav-icon {
+    display: none;
+  }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:  960px) {
     .n-list {
-      display: none;
     }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1pxsolid #fff;
+        position: absolute;
+        top: 180px;
+     
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+    
+      .nav-menu.active {
+        background: #f7fdfd;
+        left: 0px;
+        margin-right: 40rem;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+      .nav-item .active {
+        color: var(--greendark);
+        border: none;
+      }
+      .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: var(--greendark);
+      }
   }

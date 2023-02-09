@@ -4,6 +4,8 @@ import Navbar from '../Navbar/Navbar'
 import Portfolio from '../Portfolio/Portfolio'
 import Intro from '../Intro/Intro'
 import Clients from '../Clients/Clients'
+import MyIntro from '../MyIntro/MyIntro'
+import {BrowserRouter} from 'react-router-dom'
 import './Home.css'
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
       <Services/>
       <Portfolio/>
       <Clients/> 
+      {/* <MyIntro/> */}
 
 
   
