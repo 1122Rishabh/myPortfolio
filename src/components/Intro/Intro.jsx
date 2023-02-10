@@ -4,7 +4,7 @@ import Github from '../../../src/images/ghg.png'
 import Instagram from '../../../src/images/inn.png'
 
 import Linkdin from '../../../src/images/link.png'
-import man from '../../../src/images/mee.jpg'
+import man from '../../../src/images/ri.jpg'
 const Intro = () => {
   return (
     <div className='Intro' id='intro'>

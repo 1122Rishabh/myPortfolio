@@ -1,17 +1,17 @@
 import React from 'react'
-import myimage from '../../images/mee.jpg'
-import myimage1 from '../../images/meee.jpg'
-import myimage2 from '../../images/mlll.jpg'
+import myimage from '../../images/ri.jpg'
+import rishi from '../../images/sh.jpg'
+import gupta from '../../images/abh.jpg'
 
 import './MyIntro.css'
 
 const MyIntro = () => {
   return (
     <div className='image'>
-<img src={myimage} alt="i" />
-<img src={myimage1} alt="i" />
+<img src={myimage} alt="rt" />
+<img src={rishi} alt="oi" />
 
-<img src={myimage2} alt="i" />
+<img src={gupta} alt="mn" />
 <span>Hey! I am a Front End Developer and created some projects for MNC's clints. 
                   <br/>
                   I also have experince in back end side and created some API's using node js technologies.</span>

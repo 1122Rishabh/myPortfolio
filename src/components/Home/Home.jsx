@@ -5,7 +5,6 @@ import Portfolio from '../Portfolio/Portfolio'
 import Intro from '../Intro/Intro'
 import Clients from '../Clients/Clients'
 
-import MyIntro from '../MyIntro/MyIntro'
 import './Home.css'
 const Home = () => {
   return (
@@ -17,7 +16,6 @@ const Home = () => {
       <Services/>
       <Portfolio/>
       <Clients/> 
-      <MyIntro/>
       
 
 
