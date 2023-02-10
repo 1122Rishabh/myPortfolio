@@ -60,18 +60,21 @@ color: rgb(84, 201, 30);
         display: flex;
         flex-direction: column;
         width: 100%;
-        border-top: 1pxsolid #fff;
+        /* border-top: 1pxsolid #fff; */
         position: absolute;
         top: 180px;
-     
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
         left: -110%;
         opacity: 1;
         transition: all 0.5s ease;
+        height:60vh;
       }
     
       .nav-menu.active {
-        background: #f7fdfd;
+        /* background: #f7fdfd; */
         left: 0px;
+
         margin-right: 40rem;
         opacity: 1;
         transition: all 0.5s ease;
